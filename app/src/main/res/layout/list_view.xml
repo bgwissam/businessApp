@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/table_row_book"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <!-- book name category-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/item_name_label" />
+
+            <TextView
+                android:id="@+id/item_name"
+                style="@style/TextViewStyle"
+                android:text="Name" />
+        </LinearLayout>
+        <!-- Price category -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/item_price_label" />
+
+            <TextView
+                android:id="@+id/item_price"
+                style="@style/TextViewStyle"
+                android:text="Price" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/item_quantity_label" />
+
+            <TextView
+                android:id="@+id/item_quantity"
+                style="@style/TextViewStyle"
+                android:text="Quantity" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/item_weight_label" />
+
+            <TextView
+                android:id="@+id/item_weight"
+                style="@style/TextViewStyle"
+                android:text="Quantity" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/item_supplier_name" />
+
+            <TextView
+                android:id="@+id/item_supplier_name"
+                style="@style/TextViewStyle"
+                android:text="Supplier Name" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/item_supplier_number" />
+
+            <TextView
+                android:id="@+id/item_supplier_number"
+                style="@style/TextViewStyle"
+                android:text="Supplier Number" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

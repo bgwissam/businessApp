@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Business Platform</string>
+
+    <!-- Menu name for each page -->
+    <string name="inventory_platform">Inventory</string>
+    <string name="product_platform">Product</string>
+    <string name="customer_platform">Customer</string>
+    <string name="order_platform">Order</string>
+    <string name="main_menu">Main Menu</string>
+
+    <!--Display View strings -->
+    <string name="empty_view_title_text">No Data Available</string>
+    <string name="empty_view_sub_text">There are no records, kindly add a few</string>
+
+    <!--DataBaseProvider Strings-->
+    <string name="cannot_query_uri">Cannot Query this URI</string>
+    <string name="insertion_not_supported">Insertion not supported for</string>
+    <string name="item_needs_name">Item needs a name</string>
+    <string name="item_needs_price">Item needs a price</string>
+    <string name="item_needs_quantity">Item needs a quantity</string>
+    <string name="item_needs_weight">Item should have weight factor</string>
+    <string name="item_needs_supplier_name">Item requires a supplier</string>
+    <string name="failed_to_insert_data">Failed to insert Data for</string>
+    <string name="failed_to_update_data">Failed to update Data for</string>
+
+    <!--List view string fields-->
+    <string name="item_name_label">Name</string>
+    <string name="item_price_label">Price</string>
+    <string name="item_quantity_label">Quantity</string>
+    <string name="item_weight_label">Weight</string>
+    <string name="item_supplier_name">Supplier</string>
+    <string name="item_supplier_number">Phone Number</string>
+
+    <!--Inventory Editor Overview-->
+    <string name="product_overview_label">Product</string>
+    <string name="product_name">Name</string>
+    <string name="product_quantity">Quantity</string>
+    <string name="product_price">Price</string>
+    <string name="product_weight">Weight</string>
+    <string name="product_supplier_label">Supplier</string>
+    <string name="product_supplier_number">Number</string>
+
+    <!--Editor Activity Strings-->
+    <string name="add_new_product">Add New Product</string>
+    <string name="edit_current_product">Edit Product</string>
+    <string name="missing_entry_error">Enter all the required fields</string>
+    <string name="error_inserting_new_product">New product could not be inserted</string>
+    <string name="new_product_added">New product added successfully</string>
+    <string name="error_updating_current_product">Current product was not updated</string>
+    <string name="current_product_updated">Current product updated successfully</string>
+    <string name="unsaved_changes_message">You have made changes that were not saved</string>
+    <string name="discard_button">Discard Changes</string>
+    <string name="keep_editing">Continue Editing</string>
+    <string name="delete_book_warning">Are you sure you want to delete this record</string>
+    <string name="delete_button">Yes</string>
+    <string name="cancel_button">No</string>
+    <string name="error_deleting_product">Could not delete current product</string>
+    <string name="current_product_deleted">Current Product Deleted</string>
+
+    <!--Editor options menu-->
+    <string name="save_menu_button">Save</string>
+    <string name="delete_menu_button">Del</string>
+    
+    <!--Recipe List View-->
+    <string name="recipe_name_label">Name</string>
+    <string name="recipe_type_label">Type</string>
+    <string name="recipe_serving_label">Servings</string>
+    <string name="recipe_ingredients_title">Ingrediants</string>
+    <string name="ingrediant_value">In Grams</string>
+    <string name="button_add_row">Add Ingrediante</string>
+
+    <!--DataBaseProviderRecipe string values-->
+    <string name="recipe_needs_name">Recipe should have a name</string>
+    <string name="recipe_needs_type">Recipe should have a type</string>
+    <string name="recipe_needs_servings">Recipe should have a number of servings</string>
+    <string name="recipe_needs_values">Recipe should have some ingrediants</string>
+</resources>

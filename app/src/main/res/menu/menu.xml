@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inventory"
+            android:title="@string/inventory_platform"/>
+        <item
+            android:id="@+id/nav_product"
+            android:title="@string/product_platform"/>
+        <item
+            android:id="@+id/nav_customer"
+            android:title="@string/customer_platform"/>
+        <item
+            android:id="@+id/nav_order"
+            android:title="@string/order_platform"/>
+
+    </group>
+</menu>
